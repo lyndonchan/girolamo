@@ -13,6 +13,7 @@ Supported as of Girolamo 1.0:
  * Studium Biblicum Bible / 思高聖經(SB) [Source: John Duns Scotus Bible Reading Promotion Center]
 
 ## Dependencies
+* Python 2.7 (https://www.python.org/downloads/)
 * BeautifulSoup 4 ("pip install BeautifulSoup4")
 
 ## Usage
