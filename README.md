@@ -42,7 +42,7 @@ python girolamo.py -l B -q John3:14-17
 ```
 Sample text output (English)
 ```
-And just as Moses lifted up the serpent in the desert, so must the Son of Man be lifted up,so that everyone who believes in him may have eternal life."For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life.For God did not send his Son into the world to condemn the world, but that the world might be saved through him.
+And just as Moses lifted up the serpent in the desert, so must the Son of Man be lifted up, so that everyone who believes in him may have eternal life." For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life. For God did not send his Son into the world to condemn the world, but that the world might be saved through him.
 ```
 Sample text output (Chinese)
 ```
