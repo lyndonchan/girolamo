@@ -18,7 +18,22 @@ Supported as of Girolamo 1.0:
 ## Usage
 ### Help
 ```
-python girolamo.py -h
+python girolamo.py --help
+usage: girolamo.py [-h] [-l LANGUAGE] [-q QUERY]
+
+Welcome to Girolamo 1.0! Girolamo will read in a scriptural reference and
+retrieve it for you in a text file. English text is from the Vatican website's
+New American Bible, Chinese text is from the John Duns Scotus Bible Reading
+Promotion Center's Studium Biblicum translation
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LANGUAGE, --language LANGUAGE
+                        "E" for English, "C" for Chinese, "B" for English and
+                        Chinese
+  -q QUERY, --query QUERY
+                        Type in the Book, Chapter, and Verse range of your
+                        Scriptural quotation without spaces, e.g. John3:14-17
 ```
 ### Example usecase
 Console command
