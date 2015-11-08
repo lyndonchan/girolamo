@@ -1,4 +1,6 @@
 # girolamo
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Caravaggio_-_San_Gerolamo.jpg/320px-Caravaggio_-_San_Gerolamo.jpg">
+
 A simple-to-use script that retrieves scriptural quotations from various Catholic translations of the Bible. 
 
 Currently, numerous resources exist online to retrieve passages from Protestant translations of the Bible, but equivalent resources are not readily available for the Catholic bible. Currently, the online user of the Catholic bible is forced to go directly to the full text source of the Bible and manually copy-paste the passage that they want, and then manually remove all the extraneous formatting (e.g. footnote and verse numbering) from the text.
