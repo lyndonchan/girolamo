@@ -1,7 +1,7 @@
 import argparse, urllib2, utilities_lib
 from bs4 import BeautifulSoup
 # Import Bible translation expansion libraries
-import nab_expansion, njv_expansion, dr_expansion, sbt_expansion, sbs_expansion, jw_expansion
+from ..translations import nab_expansion, njv_expansion, dr_expansion, sbt_expansion, sbs_expansion, jw_expansion
 
 def split_locn(query):
     if query[0].isdigit():
