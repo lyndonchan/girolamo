@@ -1,7 +1,7 @@
 import argparse, urllib2, utilities_lib
 from bs4 import BeautifulSoup
 # Import Bible translation expansion libraries
-from ..translations import nab_expansion, njv_expansion, dr_expansion, sbt_expansion, sbs_expansion, jw_expansion
+from translations import nab_expansion, njv_expansion, dr_expansion, sbt_expansion, sbs_expansion, jw_expansion
 
 def split_locn(query):
     if query[0].isdigit():
@@ -56,9 +56,8 @@ if __name__ == "__main__":
         print "Girolamo is currently retrieving " + locn[0] + " " + locn[1] + " from the Studium Biblicum Bible (Trad. Chinese)"
         sbt_expansion.parse_sbt(locn)
     if 'SBS' in requested_translations:
-        print "Girolamo currently doesn't support Studium Biblicum Bible (Simp. Chinese)"
-        exit()
-        #sbs_expansion.parse_sbs(locn)
+        print "Girolamo is currently retrieving " + locn[0] + " " + locn[1] + " from the Studium Biblicum Bible (Simp. Chinese)"
+        sbs_expansion.parse_sbs(locn)
     if 'JW' in requested_translations:
         print "Girolamo currently doesn't support John C.H. Wu Bible (Class. Chinese)"
         exit()

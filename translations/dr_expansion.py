@@ -1,5 +1,4 @@
-import codecs, urllib2
-from .. import utilities_lib
+import codecs, urllib2, utilities_lib
 from bs4 import BeautifulSoup
 # Expansion library for Douay-Rheims Bible
 def dr_scrape(url, start, end):

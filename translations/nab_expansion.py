@@ -1,5 +1,5 @@
-import codecs, urllib2
-from .. import utilities_lib
+import codecs, urllib2, utilities_lib
+#from .. import utilities_lib
 from bs4 import BeautifulSoup
 # Expansion library for New American Bible
 def nab_scrape(url, start, end):
