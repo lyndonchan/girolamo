@@ -39,9 +39,26 @@ def purify_text(soup):
             # If text
             if not cont.name:
                 pure_text += cont.encode('utf8')
-            # If <a> tag or <u> tag
+            # If <a>, <u> tags
             elif cont.name == 'a' or cont.name == 'u' and cont.contents:
                 pure_text += cont.contents[0].encode('utf8')
         pure_text = remove_leading_space(pure_text)
         pure_texts.append(pure_text)
     return pure_texts
+
+def purify_contents(conts):
+    pure_text = ''
+    for cont in conts:
+        if cont.name == 'b':
+            pure_text += cont.contents[0].encode('utf8')
+            with open("boldfile.txt",'w') as bold_f:
+                bold_f.write(pure_text)
+        elif cont.name == 'span':
+            try:
+                if cont['class'] == 'proper_name':
+                    pure_text += cont.contents[0].encode('utf8')
+            except:
+                pass
+        elif cont.name == None:
+            pure_text += cont.encode('utf8')
+    return pure_text

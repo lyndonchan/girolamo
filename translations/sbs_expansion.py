@@ -1,6 +1,6 @@
 import codecs, urllib2, utilities_lib
 from bs4 import BeautifulSoup
-# Expansion library for Studium Biblicum Bible (Trad. Chinese)
+# Expansion library for Studium Biblicum Bible (Simp. Chinese)
 def sbs_scrape(url, start, end):
     start = int(start)-1
     end = int(end)-1
@@ -61,7 +61,7 @@ def sbs_home(args):
         raise Exception("Requested URL not found")
 
 def parse_sbs(args):
-    # Studium Biblicum Bible (Trad. Chinese)
+    # Studium Biblicum Bible (Simp. Chinese)
     (verse_nums, verse_texts) = sbs_home(args)
     with open('sbs_plain.txt','w') as out_sbs:
         out_sbs.write((''.join(verse_texts)).encode('utf8'))

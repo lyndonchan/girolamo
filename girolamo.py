@@ -59,9 +59,8 @@ if __name__ == "__main__":
         print "Girolamo is currently retrieving " + locn[0] + " " + locn[1] + " from the Studium Biblicum Bible (Simp. Chinese)"
         sbs_expansion.parse_sbs(locn)
     if 'JW' in requested_translations:
-        print "Girolamo currently doesn't support John C.H. Wu Bible (Class. Chinese)"
-        exit()
-        #jw_expansion.parse_jw(locn)
+        print "Girolamo is currently retrieving " + locn[0] + " " + locn[1] + " from the John C.H. Wu Bible (Class. Chinese)"
+        jw_expansion.parse_jw(locn)
 
     
     
