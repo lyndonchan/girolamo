@@ -10,7 +10,7 @@ Girolamo is the Italian name of St. Jerome, the patron saint of Bible scholars, 
 ## Features
 Supported as of Girolamo 1.1:
 * English
- * New American Bible (NAB) [Source: Vatican website]
+ * New American Bible (NAB) [Source: BibleGateway.com]
  * New Jerusalem Bible (NJV) [Source: Catholic.org]
  * Douay-Rheims Bible (DR) [Source: DRBO.org]
 * Chinese
