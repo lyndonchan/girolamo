@@ -26,18 +26,21 @@ Supported as of Girolamo 1.1:
 ### Help
 ```
 python girolamo.py --help
-usage: girolamo.py [-h] [-l LANGUAGE] [-q QUERY]
+usage: girolamo.py [-h] [-t TRANSLATION] [-q QUERY]
 
 Welcome to Girolamo 1.0! Girolamo will read in a scriptural reference and
-retrieve it for you in a text file. English text is from the Vatican website's
-New American Bible, Chinese text is from the John Duns Scotus Bible Reading
-Promotion Center's Studium Biblicum translation
+retrieve it for you in a text file.
 
 optional arguments:
   -h, --help            show this help message and exit
-  -l LANGUAGE, --language LANGUAGE
-                        "E" for English, "C" for Chinese, "B" for English and
-                        Chinese
+  -t TRANSLATION, --translation TRANSLATION
+                        Type in a comma-separated list of the requested Bible
+                        translation code(s): "NAB" for the New American Bible
+                        (English), "NJV" for New Jerusalem Bible (English),
+                        "DR" for Douay-Rheims Bible (English), "SBT" for
+                        Studium Biblicum Bible (Trad. Chinese), "SBS" for
+                        Studium Biblicum Bible (Simp. Chinese), "JW" for John
+                        C.H. Wu translation (Class. Chinese)
   -q QUERY, --query QUERY
                         Type in the Book, Chapter, and Verse range of your
                         Scriptural quotation without spaces, e.g. John3:14-17
