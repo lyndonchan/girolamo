@@ -1,6 +1,6 @@
 import codecs, urllib2, utilities_lib
 from bs4 import BeautifulSoup
-# Expansion library for New American Bible
+# Expansion library for New Jerusalem Bible
 def njv_scrape(url, start, end):
     start = int(start)-1
     end = int(end)-1

@@ -9,6 +9,8 @@ def is_text(elem):
     return True
 
 def rem_lead_end_spaces(text):
+    if text == '':
+        raise Exception("Input text is empty!")
     ret = text
     if text[0] == ' ':
         ret = ret[1:]
@@ -29,6 +31,9 @@ def remove_leading_zeroes(text):
 
 def remove_brackets(text):
     return text[1:-1]
+
+def correct_quotes(text):
+    return text.replace('\xe2\x80\x9c','"').replace('\xe2\x80\x9d','"')
 
 def purify_text(soup):
     pure_texts = []
