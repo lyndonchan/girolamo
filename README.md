@@ -8,11 +8,15 @@ Currently, numerous resources exist online to retrieve passages from Protestant 
 Girolamo is the Italian name of St. Jerome, the patron saint of Bible scholars, archivists, and translators. Born in 4th century Illyria, he wrote extensively and is best known today for translating the entire Bible into the Latin Vulgate.
 
 ## Features
-Supported as of Girolamo 1.0:
+Supported as of Girolamo 1.1:
 * English
- * New American Bible (NAB) [Source: Vatican website]
-* Chinese (Traditional)
- * Studium Biblicum Bible / 思高聖經(SB) [Source: John Duns Scotus Bible Reading Promotion Center]
+ * New American Bible (NAB) [Source: BibleGateway.com]
+ * New Jerusalem Bible (NJV) [Source: Catholic.org]
+ * Douay-Rheims Bible (DR) [Source: DRBO.org]
+* Chinese
+ * Studium Biblicum Bible / 思高聖經(SB) [Source: John Duns Scotus Bible Reading Promotion Center] - Trad. Chinese
+ * Studium Biblicum Bible / 思高聖經(SB) [Source: John Duns Scotus Bible Reading Promotion Center] - Simp. Chinese
+ * John C.H. Wu Bible / 吳經熊(JW) [Source: Jesus.tw] - Class. Chinese
 
 ## Dependencies
 * Python 2.7 (https://www.python.org/downloads/)
